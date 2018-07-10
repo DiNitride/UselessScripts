@@ -1,14 +1,19 @@
+
 # UselessScripts
 A collections of mildly sometimes useful scripts and tools that are only applicable for my own use probably
 
 ## Index
 
-[Github Release Download Counter](GithubReleaseCount) - Script that counts the total amount of downloads for all releases of a public Github repositry
+[Go Path](AddToGoPath) - Adds a context menu shortcut to make a symlink to my Go project folder
 
-[Convert to Nato](NatoConvert) - A tiny script I made to convert words into their spelling by the NATO Phoentic alphabet, to shitpost on Discord
+[Bus Time](BusTime) - Script to get the next bus from any stop I pick
 
-[Shadowplay Tweaks](ShadowplayTweaks) - My scripts and tools to make managing and editing clips from Shadowplay more streamlines and efficient
+[Cmd Context Menu](contextMenuCmdPrompts) - Adds context menu shortcuts for command prompt, powershell, and Git Bash
 
-[CMD, PS, and GIT Bash Context Menus](contextMenuCmdPrompts) - Registry edit to add "Open Command Prompt here" option for normal and elevanted CMD and PS, and GIT Gui and GIT Bash
+[Speaker Enabler](EnableSpeakers) - Switches the SONOS controller that my speakers run through to the line in source and 100% volume
 
-[Add to go Path](AddToGoPath) - Registry edit to automatically symlink a folder from the context menu into my GoPath folder so I can organise projects where I like and link them later
+[Github Release Count](GithubReleaseCount) - Small script that counts the total amount of downloads across all releases of a Github repo
+
+[NATO Converter](NatoConvert) - Converts a string into it's letters translated to their NATO Phonetic alphabet equivalent.
+
+[Shadowplay Tweaks](ShadowplayTweaks) - Tools and Tweaks to help manage my collection of Shadowplay clips

@@ -1,6 +1,6 @@
 # Github Release Count
 
-Small script that counts the total amount of downloads across all releases of a Github repo
+## Small script that counts the total amount of downloads across all releases of a Github repo
 
 Only works for public repos
 

@@ -1,6 +1,6 @@
 # Bus Time
 
-Script to get the next bus from any stop I pick
+## Script to get the next bus from any stop I pick
 
 To use:
 1. Get an API key and stuff from the transport API website
