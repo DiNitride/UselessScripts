@@ -1,3 +1,3 @@
 @echo off
 
-python "D:\DiNitride\Videos\YouTube\Scripts\clip.py" %1
+python "C:\Users\DiNitride\Development\UselessScripts\ShadowplayTweaks\clip.py" %1

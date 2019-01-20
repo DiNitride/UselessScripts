@@ -23,6 +23,10 @@ Line 3 of the README should be a H2 short description
 
 [NATO Converter](NatoConvert) - Converts a string into it's letters translated to their NATO Phonetic alphabet equivalent.
 
+[NewLectureFolder](NewLectureFolder) - No description provided.
+
+[RenameDates](RenameDates) - No description provided.
+
 [Shadowplay Tweaks](ShadowplayTweaks) - Tools and Tweaks to help manage my collection of Shadowplay clips
 
 [Starbound Server Scripts](StarboundServer) - Tools and scripts for managing the Starbound Server

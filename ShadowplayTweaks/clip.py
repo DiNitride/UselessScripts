@@ -2,8 +2,8 @@ import sys
 import subprocess
 import shutil
 
-OUTPUT_DIR = "D:\\DiNitride\\Videos\\YouTube\\Cuts"
-MOVE_DIR = "D:\\DiNitride\\Videos\\YouTube\\Raw Cuts"
+OUTPUT_DIR = "C:\\Users\\DiNitride\\Videos\\YouTube\\Cuts"
+MOVE_DIR = "C:\\Users\\DiNitride\\Videos\\YouTube\\Raw Cuts"
 
 FILE = sys.argv[1]
 
