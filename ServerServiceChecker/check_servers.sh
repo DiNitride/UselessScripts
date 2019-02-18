@@ -5,7 +5,7 @@ SERVICES=()
 for i in "${SERVICES[@]}"
 do
    :
-   printf "%-20.20s" $i
+   printf "%-30.30s : " $i
    if systemctl is-active --quiet $i
    then
      echo ACTIVE
