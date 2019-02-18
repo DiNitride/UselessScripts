@@ -1,6 +1,6 @@
 import soco
 
-IP = "192.168.1.3"
+IP = "192.168.1.4"
 
 speaker = soco.SoCo(IP)
 
