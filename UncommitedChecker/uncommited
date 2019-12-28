@@ -14,10 +14,14 @@ printf "$BAR"
 for i in $(echo */);
 do
   cd ~/dev/$i
-  if [ -z "$(git status --porcelain)" ]; then
-    CHANGES="${grn}No changes${end}"
+	if [ -d ".git" ]; then
+  	if [ -z "$(git status --porcelain)" ]; then
+    	CHANGES="${grn}No changes${end}"
+		else
+			CHANGES="${red}Uncommited changes found!${end}"
+		fi
 	else
-		CHANGES="${red}Uncommited changes found!${end}"
+		CHANGES="${blu}No .git directory found${end}"
 	fi
 	printf "${yel}|${end} ${cyn}%19s${end}: %36s ${yel}|${end}\n" $i "$CHANGES"
 	cd ~/dev/
