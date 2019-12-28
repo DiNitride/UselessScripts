@@ -1,0 +1,5 @@
+#!/bin/bash
+echo Setting wallpaper to $1
+cp ~/Pictures/Wallpapers/$1 ~/Pictures/Wallpapers/bg.jpg
+cp ~/Pictures/Wallpapers/$1.colours ~/.Xresources
+echo Wallpaper and colours set!

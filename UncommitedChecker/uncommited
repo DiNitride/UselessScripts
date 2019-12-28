@@ -1,0 +1,25 @@
+#!/bin/bash 
+red=$'\e[1;31m'
+grn=$'\e[1;32m'
+yel=$'\e[1;33m'
+blu=$'\e[1;34m'
+mag=$'\e[1;35m'
+cyn=$'\e[1;36m'
+end=$'\e[0m'
+BAR="${yel}+------------------------------------------------+${end}\n"
+cd ~/dev/
+printf "$BAR"
+printf "${yel}Checking ~/dev/ directories for uncommited changes${end}\n"
+printf "$BAR"
+for i in $(echo */);
+do
+  cd ~/dev/$i
+  if [ -z "$(git status --porcelain)" ]; then
+    CHANGES="${grn}No changes${end}"
+	else
+		CHANGES="${red}Uncommited changes found!${end}"
+	fi
+	printf "${yel}|${end} ${cyn}%19s${end}: %36s ${yel}|${end}\n" $i "$CHANGES"
+	cd ~/dev/
+done
+printf "$BAR"

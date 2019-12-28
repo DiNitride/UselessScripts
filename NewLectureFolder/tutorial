@@ -1,0 +1,2 @@
+#!/bin/bash
+python /home/dinitride/dev/UselessScripts/NewLectureFolder/make_folder.py T
