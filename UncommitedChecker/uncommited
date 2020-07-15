@@ -6,7 +6,7 @@ blu=$'\e[1;34m'
 mag=$'\e[1;35m'
 cyn=$'\e[1;36m'
 end=$'\e[0m'
-BAR="${yel}+------------------------------------------------+${end}\n"
+BAR="${yel}+----------------------------------------------------------+${end}\n"
 cd ~/dev/
 printf "$BAR"
 printf "${yel}Checking ~/dev/ directories for uncommited changes${end}\n"
@@ -23,7 +23,7 @@ do
 	else
 		CHANGES="${blu}No .git directory found${end}"
 	fi
-	printf "${yel}|${end} ${cyn}%19s${end}: %36s ${yel}|${end}\n" $i "$CHANGES"
+	printf "${yel}|${end} ${cyn}%29s${end}: %36s ${yel}|${end}\n" $i "$CHANGES"
 	cd ~/dev/
 done
 printf "$BAR"
